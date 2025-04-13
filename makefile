@@ -2,7 +2,8 @@
 
 CXX = g++
 CPPFLAGS = 
-prefix := /usr/local
+prefix ?= /usr/local
+BINDIR = $(prefix)/bin
 
 ascii2vals: ascii2vals.cpp
 
@@ -10,7 +11,9 @@ ascii2vals.cpp:
 	echo "This should already exist..."
 
 clean:
-	rm -f ascii2vals
+	if [ -e ascii2vals ]; then rm -f ascii2vals; fi
+	if [ -e ${BINDIR}/ascii2vals ]; then rm -f ascii2vals; fi
 
 install:
-	mv ascii2vals ${prefix}
+	echo "Moving ascii2vals to ${BINDIR}"
+	mv ascii2vals ${BINDIR}
