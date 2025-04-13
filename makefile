@@ -15,5 +15,4 @@ clean:
 	if [ -e ${BINDIR}/ascii2vals ]; then rm -f ascii2vals; fi
 
 install:
-	echo "Moving ascii2vals to ${BINDIR}"
 	mv ascii2vals ${BINDIR}
