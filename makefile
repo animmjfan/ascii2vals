@@ -3,7 +3,7 @@
 CXX = g++
 CPPFLAGS = 
 prefix ?= /usr/local
-BINDIR = $(prefix)/bin
+BINDIR = $(realpath ${prefix})/bin
 
 ascii2vals: ascii2vals.cpp
 
