@@ -67,3 +67,40 @@ optional syntax (required if non-default location):
 ```
 > [!NOTE]
 > You may need to use sudo depending on your permissions
+
+## How to install and uninstall manually
+### Manual install
+> [!IMPORTANT]
+> You should already have the repo cloned
+
+1. Compile using your preferred c++ compiler (I'll show the default g++):
+```
+g++ ascii2vals.cpp -o ascii2vals
+```
+2. Copy the file to a bin in your $PATH (I'll show /usr/local/bin):
+```
+cp ascii2vals /usr/local/bin/
+```
+or
+```
+sudo cp ascii2vals /usr/local/bin/
+```
+
+### Manual uninstall
+First you'll need to locate ascii2vals:
+
+you can do this by running the following:
+```
+which ascii2vals
+```
+or just remebering where you put it
+
+Now that you have the path, simply run this:
+```
+rm -f path/to/binary
+```
+and you may need to prepend `sudo`
+> [!NOTE]
+> Replace path/to/binary with the path to the binary
+
+My first c++ program and first time using makefile
