@@ -1,5 +1,4 @@
 #!/bin/bash
-
 prefix=/usr/local
 for arg in "$@"; do
     case $arg in
