@@ -103,4 +103,4 @@ and you may need to prepend `sudo`
 > [!NOTE]
 > Replace path/to/binary with the path to the binary
 
-> My first c++ program and first time using makefile
+> This is my first c++ program and first time using makefile
