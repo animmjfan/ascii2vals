@@ -1,2 +1,2 @@
-install.sh linguist-vendored=false
-makefile linguist-vendored=false
+install.sh linguist-vendored
+makefile linguist-vendored
