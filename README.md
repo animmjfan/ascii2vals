@@ -1,7 +1,5 @@
 # ascii2vals
 
-***Despite what the github website says, this project's primary language is c++***
-
 ## What this does
 This program simpily takes characters and converts them to decimal, hexadecimal, octal, and binary  
 
@@ -13,7 +11,7 @@ Https:
 git clone https://github.com/animmjfan/ascii2vals.git
 cd ascii2vals
 ```
-SSH:
+SSH: *for developers*
 ```
 git clone git@github.com:animmjfan/ascii2vals.git
 cd ascii2vals
