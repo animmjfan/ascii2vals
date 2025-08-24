@@ -11,7 +11,7 @@ Https:
 git clone https://github.com/animmjfan/ascii2vals.git
 cd ascii2vals
 ```
-SSH: *for developers*
+SSH: *if you have it set up*
 ```
 git clone git@github.com:animmjfan/ascii2vals.git
 cd ascii2vals
