@@ -28,7 +28,7 @@ make install
 Note: depending on your permissions you may need to run `sudo make install`
 
 > [!TIP]
-> You can add prefix=PATH to the second command to make it install relative to PATH  
+> You can add prefix=PATH to the second command to make it install to another location (replacing PATH with a directory to install to)  
 > The same is true with CXX for your compiler and CPPFLAGS for the compiler flags
 
 ### Installing using install.sh
